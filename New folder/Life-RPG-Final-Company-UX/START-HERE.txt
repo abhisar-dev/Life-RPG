@@ -1,0 +1,31 @@
+LIFE RPG — CLEAN BUILD
+
+1. Open this folder in VS Code.
+2. Terminal 1:
+   cd backend
+   npm install
+   npm run dev
+3. Terminal 2:
+   cd frontend
+   npm install
+   npm run dev
+4. Open http://localhost:5173 in Chrome/Edge.
+5. Keep BOTH terminals running.
+
+If an old Life RPG is already running, press Ctrl+C in its terminals first.
+If the browser shows an old/blank page, use Ctrl+Shift+R.
+
+FEATURES INCLUDED
+- Full-stack React + Vite + Express + SQLite
+- JWT authentication
+- Database-backed quests, XP, Gold, streaks and attributes
+- Five-question playable quests
+- Submit Answers appears immediately after all 5 answers are selected
+- Score shown as X/5 and percentage
+- 4/5 or 5/5 automatically unlocks the next badge
+- 10-badge Rewards vault with locked/unlocked states
+- Rewards count beside the profile avatar
+- Profile panel + display name, bio and profile picture
+- Shop + inventory
+- Responsive premium RPG UI
+- Optional timer that never blocks quiz submission
